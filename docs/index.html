@@ -30,8 +30,49 @@
   <!-- Alpine.js CDN -->
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js"></script>
 
-  <!-- Embed script (self, for dogfooding demos) -->
-  <script src="./dist/embed.min.js"></script>
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://widget.widebible.com/">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://widebible.com/favicon.ico" sizes="32x32">
+
+  <!-- Additional OG tags -->
+  <meta property="og:site_name" content="WideBible Embed">
+  <meta property="og:image" content="https://cdn.widebible.com/og/widebible-white-card.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WideBible Embed Widget">
+  <meta name="twitter:description" content="Embed Bible widgets on any website.">
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "WideBible Embed Widget",
+  "url": "https://widget.widebible.com/",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "WideHoly",
+    "url": "https://wideholy.com"
+  },
+  "description": "Embed WideBible scripture widgets on any website. Zero dependencies, Shadow DOM isolation, 3 themes."
+}
+  </script>
+
+  <!-- Robots -->
+  <meta name="robots" content="index, follow">
+
+  <!-- Embed script via jsDelivr CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/widebible-embed@1/dist/embed.min.js"></script>
 
   <style>
     :root { --accent: #4F46E5; }
