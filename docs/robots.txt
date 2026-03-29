@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# WideBible Embed Widget
+# Main site: https://widebible.com
+# Widget docs: https://widget.widebible.com
+# npm: https://www.npmjs.com/package/widebible-embed
